@@ -13,7 +13,7 @@ async function getData(slug: string) {
 }
 
 export default async function SlugPage({ params }: { params: { slug: string } }) {
-  const data = await getData(params.slug) as Post;
+  const data = await getData(params.slug);
 
   const PortableTextComponent = {
     types: {
