@@ -17,7 +17,7 @@ export default function ThemeButton() {
 
   return (
     <button
-     onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')} 
+      onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')} 
     >
       {
         resolvedTheme === 'dark' ? (
